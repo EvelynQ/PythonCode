@@ -9,7 +9,7 @@ a=input("请输入a:")
 b=input("请输入b:")
 print("a和b的长度之和是：",len(a)+len(b))
 """
-
+#元组的一些操作
 # t=(2,3,4,"hah","hahha","2",True,False)
 #print(t)
 #print(t[4])
@@ -31,12 +31,41 @@ s=[1,2,24,5,6]
 # print('b=',b)
 # print(s)
 
-s.clear()
-print(s)
+# s.clear()
+# print(s)
 
-s.append(1)
-print(s)
-x=["nihao","hahha"]
-s.extend(s+x)
-print(s)
+# s.append(1)
+# print(s)
+# x=["nihao","hahha"]
+# s.extend(s+x)
+# print(s)
+# print(len(s))
+
+
+# #字典的一些操作
+a={"name":"张三","age":12,"sex":"男"}
+# #取值
+# print(a["name"])
+# #新增
+# a["height"]="182cm"
+# print(a)
+# #修改
+# a["name"]="lisi"
+# print(a)
+
+#常用的方法
+# b=a.get("name")
+# print(b)
+# c=a.pop("age")
+# print(c)
+# print(a)
+# a["age"]=22
+# print(a)
+
+
+# a.update(age=54)
+# print(a)
+
+# print(a.get("name11"))
+# print(a["name11"])
 
